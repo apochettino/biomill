@@ -307,6 +307,23 @@ header{
     margin-top: 1.875rem;
 }
 
+@media (min-width: 1025px) {
+
+    .secondSectionUs h3 {
+        
+        margin-top: 1.875rem;
+    }
+    
+    
+    
+    .secondSectionUs p {    
+       
+        margin-top: 1.875rem;
+    }
+    
+
+}
+
 @media (max-width: 1024px) {
 
     
@@ -314,21 +331,18 @@ header{
 
         padding: 13.375rem 0 4.375rem 0;
     }
-
     
-.secondSectionUs h3 {
-    
-    font-size: 1.10rem;
-}
+    .secondSectionUs h3 {
+        
+        font-size: 1rem !important;
+    }
 
+    .secondSectionUs p {
 
-
-.secondSectionUs p {
-
-    
-    font-size: 0.90rem;
-    margin-top: 1.875rem;
-}
+        
+        font-size: 11px !important;
+        margin-top: 1.875rem;
+    }
 
 }
 
