@@ -257,7 +257,6 @@ header{
     background: url('../../img/bannerbio.png');
 */}
 
-/*-----------Index-------------*/
 
 /*------- nosotros ------*/
 
@@ -266,13 +265,14 @@ header{
     background-image: url('../../img/bkg01.png');
     margin-top: -150px;  
     min-height: 700px ; 
-    background-repeat: no-repeat;
-  
-  background-position: top;
+    background-repeat: no-repeat; 
+    background-position: top;
 }
+
+
 .firstSectionUs{
 
-    padding: 12.375rem 0 9.375rem 0;
+    padding: 12.375rem 0 5.375rem 0;
 }
 .firstSectionUs img{
     margin-top: -1.875rem;
@@ -306,6 +306,33 @@ header{
     font-size: 1.25rem;
     margin-top: 1.875rem;
 }
+
+@media (max-width: 1200px) {
+
+    
+    .firstSectionUs{
+
+        padding: 12.375rem 0 4.375rem 0;
+    }
+
+    
+.secondSectionUs h3 {
+
+    
+    font-size: 1.25rem;
+}
+
+
+
+.secondSectionUs p {
+
+    
+    font-size: 1rem;
+    margin-top: 1.875rem;
+}
+
+}
+
 
 @media (max-width: 992px) {
 /*
