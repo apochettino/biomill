@@ -122,6 +122,8 @@ footer p{
 nav {
 
     font-family: 'Montserrat', sans-serif;
+    position: absolute;
+    z-index: 10000;
 }
 
 .nav-item:after{
@@ -1327,14 +1329,14 @@ textarea.form-control {
     display: none; 
 }
 
-#slide-show {
+.slide-show {
   height: 50vh;
   min-height: 50vh;
   overflow: hidden;
   width: 100vw;
   min-width: 100vw !important;
 }
-
+/*
 .slide-text {
   font-size: 20px;
   color: #fff;
@@ -1354,7 +1356,7 @@ textarea.form-control {
   letter-spacing: 1px;
   color: #fff;
 }
-
+*/
 .slidex {
   opacity: 0;
   transition: opacity 1.5s ease-in-out;
@@ -1416,7 +1418,7 @@ textarea.form-control {
   text-align: left;
   letter-spacing: 2px;
 }
-
+/*
 .nav-link {
   transition: all 0.4s;
   padding: 15px;
@@ -1429,7 +1431,7 @@ textarea.form-control {
   font-size: 80px;
   opacity: 0.8;
 }
-
+*/
 .arrow a {
   position: absolute;
   bottom:0;
