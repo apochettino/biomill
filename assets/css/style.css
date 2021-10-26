@@ -307,22 +307,7 @@ header{
     margin-top: 1.875rem;
 }
 
-@media (min-width: 1025px) {
 
-    .secondSectionUs h3 {
-        
-        margin-top: 1.875rem;
-    }
-    
-    
-    
-    .secondSectionUs p {    
-       
-        margin-top: 1.875rem;
-    }
-    
-
-}
 
 @media (max-width: 1440px) {
 
@@ -334,13 +319,13 @@ header{
     
     .secondSectionUs h3 {
         
-        font-size: 1rem !important;
+        font-size: 1.20rem !important;
     }
 
     .secondSectionUs p {
 
         
-        font-size: 11px !important;
+        font-size: 1rem !important;
         margin-top: 1.875rem;
     }
 
@@ -355,19 +340,17 @@ header{
     }
 
     
-.secondSectionUs h3 {
-    
-    font-size: 1.25rem;
-}
+    .secondSectionUs h3 {
+        
+        font-size: 1rem !important;
+    }
 
+    .secondSectionUs p {
 
-
-.secondSectionUs p {
-
-    
-    font-size: 1rem;
-    margin-top: 1.875rem;
-}
+        
+        font-size: 11px !important;
+        margin-top: 1.875rem;
+    }
 
 }
 
