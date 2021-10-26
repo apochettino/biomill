@@ -1204,22 +1204,22 @@ textarea.form-control {
 
 
 /*-----------------index------------------*/
-/*
+
 .indefFirst{
 
     margin-top: -50px;
-   /* background-size: cover;*/ /*
+   /* background-size: cover;*/
    background-position: center;
    
 }
 
 .full-screen { /*la llama desde js*/
-        /*
+        
     background-repeat: no-repeat;
     /*aca me acorta solo la imagen*/
     
-   /* 
-}*/
+    
+}
 
 @media (max-width: 992px){}
 
@@ -1318,5 +1318,4 @@ textarea.form-control {
     }
 
 }
-
 
