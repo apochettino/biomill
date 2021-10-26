@@ -1562,8 +1562,8 @@ textarea.form-control {
   left:0;
 }
 
-.bg2 {background-image: url("../../img/ca02.png");}
-.bg3 { background-image: url("../../img/ca03.png");}/*
+.bg2 {background-image: url("../../img/c02.png");}
+.bg3 { background-image: url("../../img/c03.png");}/*
 .bg4 {background-image: url("../../img/carou03.png");}
 */
 .slider-center {
@@ -1612,3 +1612,114 @@ textarea.form-control {
   opacity: 0.8;
 }
 
+.frasBio {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #091F61;
+    text-align: center;
+    font-size: 3em;
+}
+
+.frasBio02 {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #3B414F;
+    text-align: center;
+    font-size: 4em;
+}
+
+
+.frasBio02 span {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #05D4FC;
+    text-align: center;    
+    font-style: italic;
+}
+
+@media (max-width: 990px) {
+
+
+
+    .frasBio {
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #091F61;
+        text-align: center;       
+        font-size: 2em !important;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .frasBio02 {
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #3B414F;
+        text-align: center;
+        font-size: 3em;
+    }
+    
+    .frasBio {
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #091F61;
+        text-align: center;       
+        font-size: 1.8em !important
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .frasBio02 {
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #3B414F;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .frasBio {
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #091F61;
+        text-align: center;
+        font-size: 2em;
+    }
+    
+
+}
+
+@media (max-width: 576px) {
+
+    .frasBio02 {
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 800;
+        color: #3B414F;
+        text-align: center;
+        font-size: 2.5em;
+    }
+    
+    .frasBio {
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 600;
+        color: #091F61;
+        text-align: center;
+        font-size: 1.5em;
+    }
+}   
