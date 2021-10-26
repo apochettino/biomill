@@ -270,9 +270,10 @@ header{
 }
 
 
+
 .firstSectionUs{
 
-    padding: 12.375rem 0 5.375rem 0;
+    padding: 13.375rem 0 6rem 0;
 }
 .firstSectionUs img{
     margin-top: -1.875rem;
@@ -314,7 +315,7 @@ header{
     
     .firstSectionUs{
 
-        padding: 13.375rem 0 4.375rem 0;
+        padding: 13.375rem 0 4rem 0;
     }
     
     .secondSectionUs h3 {
@@ -343,7 +344,7 @@ header{
     
     .firstSectionUs{
 
-        padding: 13.375rem 0 4.375rem 0;
+        padding: 13.0rem 0 4rem 0;
     }
 
     
@@ -373,7 +374,7 @@ header{
     
     .firstSectionUs{
 
-        padding: 13.375rem 0 2.0rem 0;
+        padding: 11.0rem 0 3.0rem 0;
     }
 
     
@@ -404,7 +405,8 @@ header{
 
     .firstSectionUs{
 
-        margin: 3.10rem 0 3.0rem 0;
+       /* margin: 3.10rem 0 3.0rem 0;*/
+        padding: 11.0rem 0 3.0rem 0;
     }
     .firstSectionUs img{
         margin-top: -1.575rem;
@@ -449,8 +451,9 @@ header{
 
 
     .firstSectionUs{
-
-        margin: 3.10rem 0 3.0rem 0;
+/*
+        margin: 3.10rem 0 3.0rem 0;*/
+        padding: 11.0rem 0 3.0rem 0;
     }
     .firstSectionUs img{
         margin-top: -1.575rem;
@@ -489,12 +492,12 @@ header{
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
 
 
     .firstSectionUs span {
 
-        font-size: 1.6em;              
+        font-size: 1.8em;              
     }
 }
 
