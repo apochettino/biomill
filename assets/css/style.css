@@ -307,6 +307,31 @@ header{
     margin-top: 1.875rem;
 }
 
+@media (max-width: 1024px) {
+
+    
+    .firstSectionUs{
+
+        padding: 13.375rem 0 4.375rem 0;
+    }
+
+    
+.secondSectionUs h3 {
+    
+    font-size: 1.10rem;
+}
+
+
+
+.secondSectionUs p {
+
+    
+    font-size: 0.90rem;
+    margin-top: 1.875rem;
+}
+
+}
+
 @media (max-width: 1200px) {
 
     
@@ -331,7 +356,6 @@ header{
 }
 
 }
-
 
 @media (max-width: 992px) {
 /*
