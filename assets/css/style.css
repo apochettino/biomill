@@ -1618,7 +1618,7 @@ textarea.form-control {
     font-weight: 600;
     color: #091F61;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 1em;
     
 }
 
@@ -1639,6 +1639,7 @@ textarea.form-control {
     color: #05D4FC;
     text-align: center;    
     font-style: italic;
+    
 }
 
 @media (max-width: 990px) {
