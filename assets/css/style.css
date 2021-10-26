@@ -1228,41 +1228,89 @@ textarea.form-control {
 .sq01{
 
     margin: 0 0 0 3vw;
+    width: 100%;
+    height: auto;
+  
 }
 
 
 .sq02{
 
     margin: 0 0 0 3vw;
+    width: 100%;
+    height: auto;
 }
 
 .sq03{
 
-    margin: -20vh 0 0 3vw;
+    margin: -15vh 0 0 3vw;
+    width: 100%;
+    height: auto;
 }
 
 .sq04{
 
-    margin: -20vh 0 0 11vw;
+    margin: -15vh 0 0 11vw;
+    width: 100%;
+    height: auto;
 }
 
 .sq05{
 
-    margin: -20vh 0 0 19vw;
+    margin: -15vh 0 0 19vw;
+    width: 100%;
+    height: auto;
 }
 
 .sq06{
 
-    margin: -20vh 0 0 7vw;
+    margin: -13vh 0 0 7vw;
+    width: 100%;
+    height: auto;
 }
 .sq07{
 
-    margin: -20vh 0 0 15vw;
+    margin: -13vh 0 0 15vw;
+    width: 100%;
+    height: auto;
 }
 
 .sq08{
 
-    margin: -20vh 0 0 23vw;
+    margin: -13vh 0 0 23vw;
+    width: 100%;
+    height: auto;
+}
+
+/*antes estaba todo el -20vh*/
+
+
+.mobileProj {
+
+   /* visibility: hidden ;*/
+    display: none;
+}
+/*
+.visiFoot {
+
+    margin-top: -3500px !important;
+}*/
+
+
+@media (max-width: 992px) { 
+
+    .mobileProj {
+
+        visibility: visible ;
+        display: block;
+        
+    }
+
+    .secondSectionProj {
+
+        display: none;
+    }
+
 }
 
 
