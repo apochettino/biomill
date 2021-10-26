@@ -656,16 +656,21 @@ header{
     font-weight: 400;
     font-size:  1.255em; 
     line-height: 1.6;
+    margin-top: 45px;
    
 }
 
 .secondSectionWork img {
         max-width: 60%;
         height: auto;
-        margin-bottom: 2rem;    
-        margin-top: -40px;
+    /*    margin-bottom: 2rem;    
+        margin-top: -40px;*/
 }
 
+.thirdSectionWork {
+
+    margin-bottom: 100px;
+}
 
 /*aca viene la parte del hover en img*/
 
@@ -697,8 +702,8 @@ header{
 .grid figure img {
 	position: relative;
 	display: block;
-	min-height: 100%;
-	max-width: 100%;
+	min-height: 240%;
+	max-width: 240%;
 	
 }
 
@@ -1210,3 +1215,8 @@ textarea.form-control {
     background-repeat: no-repeat;
     
 }
+
+
+/*--------nuestros proyectos------------*/
+
+
