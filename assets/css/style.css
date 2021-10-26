@@ -1330,11 +1330,14 @@ textarea.form-control {
 }
 
 .slide-show {
+
+
   height: 50vh;
   min-height: 50vh;
   overflow: hidden;
   width: 100vw;
   min-width: 100vw !important;
+  
 }
 /*
 .slide-text {
@@ -1389,7 +1392,7 @@ textarea.form-control {
   background-attachment: scroll !important;
   background-position: center center !important;
   background-size: cover !important;
-  background-image: url("../../img/carou01.png");
+  background-image: url("../../img/ca01.png");
   height: 100vh;
   min-height: 100vh;
   overflow: hidden;
@@ -1400,8 +1403,8 @@ textarea.form-control {
   left:0;
 }
 
-.bg2 {background-image: url("../../img/carou02.png");}
-.bg3 { background-image: url("../../img/carou03.png");}/*
+.bg2 {background-image: url("../../img/ca02.png");}
+.bg3 { background-image: url("../../img/ca03.png");}/*
 .bg4 {background-image: url("../../img/carou03.png");}
 */
 .slider-center {
