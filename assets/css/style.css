@@ -348,23 +348,40 @@ header{
     .secondSectionUs p {
 
         
-        font-size: 11px !important;
+        font-size: 14px !important;
         margin-top: 1.875rem;
     }
 
 }
 
-@media (max-width: 992px) {
-/*
-    header {
 
-        margin-top: -50px;
+@media (max-width: 992px) {
+
+    
+    .firstSectionUs{
+
+        padding: 13.375rem 0 4.375rem 0;
     }
 
-    .bkg {
-       
-        margin-top: -50px;   
-    }*/
+    
+    .secondSectionUs h3 {
+        
+        font-size: 0.9rem !important;
+    }
+
+    .secondSectionUs p {
+
+        
+        font-size: 12px !important;
+        margin-top: 1.875rem;
+    }
+
+}
+
+
+
+@media (max-width: 768px) {
+
 
     .firstSectionUs{
 
@@ -386,6 +403,18 @@ header{
 
     .titleUs {
         margin-top: 2rem;
+    }
+
+    .secondSectionUs h3 {
+        
+        font-size: 1.2rem !important;
+    }
+
+    .secondSectionUs p {
+
+        
+        font-size: 16px !important;
+        margin-top: 1.875rem;
     }
     
 
