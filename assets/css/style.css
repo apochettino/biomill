@@ -329,6 +329,13 @@ header{
         margin-top: 1.875rem;
     }
 
+    .firstSectionUs span {
+        
+        font-weight: 400;
+        font-size: 3.5em; 
+
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -350,6 +357,12 @@ header{
         
         font-size: 14px !important;
         margin-top: 1.875rem;
+    }
+
+    .firstSectionUs span {
+
+        
+        font-size: 3.5em; 
     }
 
 }
@@ -374,6 +387,12 @@ header{
         
         font-size: 12px !important;
         margin-top: 1.875rem;
+    }
+
+    .firstSectionUs span {
+        
+        font-size: 3.0em; 
+             
     }
 
 }
@@ -417,7 +436,56 @@ header{
         margin-top: 1.875rem;
     }
     
+    .firstSectionUs span {
+        
+        font-size: 2.6em; 
+             
+    }
 
+}
+
+
+@media (max-width: 650px) {
+
+
+    .firstSectionUs{
+
+        margin: 3.10rem 0 3.0rem 0;
+    }
+    .firstSectionUs img{
+        margin-top: -1.575rem;
+        width: 50%;
+        max-width: 30px;
+    }
+    .firstSectionUs span {
+    
+        color: #01B7FE;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 2.8em; 
+              
+    }
+
+    .titleUs {
+        margin-top: 2rem;
+    }
+
+    .secondSectionUs h3 {
+        
+        font-size: 1.2rem !important;
+    }
+
+    .secondSectionUs p {
+
+        
+        font-size: 16px !important;
+        margin-top: 1.875rem;
+    }
+    
+    .firstSectionUs span {
+
+        font-size: 2.0em;              
+    }
 
 }
 
