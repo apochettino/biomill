@@ -489,6 +489,18 @@ header{
 
 }
 
+@media (max-width: 400px) {
+
+
+    .firstSectionUs span {
+
+        font-size: 1.6em;              
+    }
+}
+
+
+
+
 
 /*------------AGM-----------*/
 
