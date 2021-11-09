@@ -304,7 +304,7 @@ header{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #31ABE7;
-    font-size: 1.25rem;
+    font-size: 1.05rem;
     margin-top: 1.875rem;
 }
 
@@ -824,7 +824,7 @@ header{
 }
 
 .secondSectionWork img {
-        max-width: 60%;
+        max-width: 70%;
         height: auto;
     /*    margin-bottom: 2rem;    
         margin-top: -40px;*/
