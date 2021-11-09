@@ -1402,11 +1402,28 @@ textarea.form-control {
 }
 
 
+.sq01:hover {
+   
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+}
+
+
 .sq02{
 
     margin: 0 0 0 3vw;
     width: 100%;
     height: auto;
+}
+
+
+.sq02:hover {
+   
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+    
 }
 
 .sq03{
