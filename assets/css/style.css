@@ -981,7 +981,10 @@ figure.effect-zoe:hover h2 {
 	transition-delay: 0.05s;
 }
 
+.text-responsive p {
 
+    margin-top: -40px;
+}
 
 
 @media (max-width: 576px) {
@@ -991,7 +994,7 @@ figure.effect-zoe:hover h2 {
     }
 
     .text-responsive {
-        margin-top: 50px;
+        margin-top: 80px;
     }
 }
 
@@ -999,7 +1002,7 @@ figure.effect-zoe:hover h2 {
 
 @media (min-width: 576px) {
     .text-responsive {
-        margin-top: 50px;
+        margin-top: 80px;
     }
 }
 
