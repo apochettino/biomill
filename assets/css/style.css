@@ -658,6 +658,43 @@ header{
     
 }
 
+
+
+@media (max-width: 576px) {
+    
+    .firstSectionAgm{
+    
+        margin: 0rem 0 0 0;
+    }
+
+    .secondSectionAgm {
+
+        margin-top: -100px;
+    }
+    .sectImgAgm {
+
+        margin-top: -230px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .firstSectionAgm{
+    
+        margin: 0rem 0 0 0;
+    }
+
+    .secondSectionAgm {
+
+        margin-top: -100px;
+    }
+    .sectImgAgm {
+
+        margin-top: -230px;
+        margin-bottom: 50px;
+    }
+}
 /*-------BIOHORMON------------*/
 
 
@@ -747,6 +784,7 @@ header{
 }
 
 
+
 /*------historia------*/
 
 
@@ -826,8 +864,7 @@ header{
 .secondSectionWork img {
         max-width: 70%;
         height: auto;
-    /*    margin-bottom: 2rem;    
-        margin-top: -40px;*/
+    
 }
 
 .thirdSectionWork {
@@ -836,17 +873,6 @@ header{
 }
 
 /*aca viene la parte del hover en img*/
-
-
-/*
-.grid {
-	position: relative;
-	margin: 0 auto;
-	padding: 1em 0 4em;
-	max-width: 1000px;
-	list-style: none;
-	text-align: center;
-}*/
 
 /* Common style */
 .grid figure {
@@ -892,16 +918,7 @@ header{
 	height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
-/*
-.grid figure figcaption > a {
-	z-index: 1000;
-	text-indent: 200%;
-	white-space: nowrap;
-	font-size: 0;
-	opacity: 0;
-}*/
+
 
 .grid figure h2 {
 	
@@ -910,17 +927,6 @@ header{
     font-family: 'Montserrat', sans-serif;
    
 }
-
-/*
-.grid figure h2,
-.grid figure p {
-	margin: 0;
-}
-
-.grid figure p {
-	letter-spacing: 1px;
-	font-size: 68.5%;
-}*/
 
 
 
@@ -936,25 +942,6 @@ figure.effect-zoe figcaption {
 	-webkit-transform: translate3d(0,100%,0);
 	transform: translate3d(0,100%,0);
 }
-/*
-figure.effect-zoe h2 {
-	float: left;
-}
-*/
-
-/*
-figure.effect-zoe p.description {
-	position: absolute;
-	bottom: 8em;
-	padding: 2em;
-	color: #fff;
-	text-transform: none;
-	font-size: 90%;
-	opacity: 0;
-	-webkit-transition: opacity 0.35s;
-	transition: opacity 0.35s;
-	-webkit-backface-visibility: hidden;*/ /* Fix for Chrome 37.0.2062.120 (Mac) 
-}*/
 
 figure.effect-zoe h2,
 figure.effect-zoe p.icon-links a {
@@ -993,26 +980,28 @@ figure.effect-zoe:hover h2 {
 	-webkit-transition-delay: 0.05s;
 	transition-delay: 0.05s;
 }
-/*
-figure.effect-zoe:hover p.icon-links a:nth-child(3) {
-	-webkit-transition-delay: 0.1s;
-	transition-delay: 0.1s;
+
+
+
+
+@media (max-width: 576px) {
+    .workimg {
+
+        margin-bottom: -130px;
+    }
+
+    .text-responsive {
+        margin-top: 50px;
+    }
 }
 
-figure.effect-zoe:hover p.icon-links a:nth-child(2) {
-	-webkit-transition-delay: 0.15s;
-	transition-delay: 0.15s;
+
+
+@media (min-width: 576px) {
+    .text-responsive {
+        margin-top: 50px;
+    }
 }
-
-figure.effect-zoe:hover p.icon-links a:first-child {
-	-webkit-transition-delay: 0.2s;
-	transition-delay: 0.2s;
-}
-
-*/
-
-
-
 
 
 /*FORM*//*
@@ -1361,6 +1350,22 @@ textarea.form-control {
     }
 
 }
+
+@media (max-width: 576px) {
+    .sectHitos {
+
+        margin-top: -0.1rem;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .sectHitos {
+
+        margin-top: -0.1rem;
+    }
+}
+
 
 
 
